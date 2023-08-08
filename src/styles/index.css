@@ -10,3 +10,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    margin-top:20px;
+}
+.container-full {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    border-radius:10px;
+    width:75%;
+    margin:0 auto;
+    background-color:black;
+}
+.digits {
+    height:85px;
+    width:85;
+    font-size:60px;
+    margin:10px;
+    text-align: center;
+    background-color: #2e2e2d;
+    border-radius:15px;
+    
+}
+
+.icon {
+    height:85px;
+    width:85px;
+    background-color: #2e2e2d;
+    border-radius:15px;
+    margin:10px;
+    text-align: center;
+}
+
+.icon svg {
+    margin-top:10px;
+}
